@@ -1,7 +1,10 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
+/*
+color: #167961
 
+*/
 
 /* Reset */
 
@@ -3117,11 +3120,15 @@
 			#footer .copyright li {
 				border-left: solid 1px;
 				display: inline-block;
-				line-height: 1em;
+				line-height: 1.5em;
 				margin-left: 1em;
 				padding: 0 0 0 1em;
 			}
 
+			#footer .copyright a{
+				 text-decoration: none;
+				 border-bottom: none;
+			}			
 				#footer .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
@@ -3456,7 +3463,9 @@
 	
 /*##############################################*/
 
-
+.verd{
+	color: #167961;
+}
 
 
 
